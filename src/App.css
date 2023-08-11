@@ -1,0 +1,236 @@
+html {
+  background-color: #212529;
+  overflow-x: hidden;
+}
+#root {
+  background-color: #212529;
+}
+.navigationBtn {
+  background-color: #ffd200;
+  color: #000;
+}
+@media screen and (max-width: 1000px) {
+  .sidebarImg {
+    height: 150px !important;
+  }
+  .sidebarCoinName {
+    font-size: 25px;
+  }
+  .sidebarCoinDesc {
+    font-size: 15px;
+  }
+  .sidebarCoinRank {
+    font-size: 15px;
+  }
+  .sidebarCoinPrice {
+    font-size: 15px;
+  }
+  .sidebarCoinMarketCap {
+    font-size: 15px;
+  }
+  .timeBtn {
+    padding: 2px 5px !important;
+    font-size: 10px !important;
+  }
+  .line {
+    margin: 0 10px !important;
+    width: 95% !important;
+  }
+}
+@media screen and (max-width: 750px) {
+  .sidebarImg {
+    height: 120px !important;
+  }
+  .sidebarCoinName {
+    font-size: 20px;
+  }
+  .sidebarCoinDesc {
+    font-size: 10px;
+  }
+  .sidebarCoinRank {
+    font-size: 10px;
+  }
+  .sidebarCoinPrice {
+    font-size: 10px;
+  }
+  .sidebarCoinMarketCap {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .carouselDiv {
+    min-height: 15vh !important;
+  }
+  .carousel {
+    min-width: 90vw !important;
+  }
+  .coinName {
+    font-size: 12px !important;
+  }
+  .profit {
+    font-size: 13px !important;
+  }
+  .currentPrice {
+    font-size: 15px !important;
+  }
+  .searchBarHeading {
+    font-size: 20px !important;
+  }
+  .searchBar {
+    min-width: 80vw !important;
+  }
+  .progressBar {
+    min-width: 80vw !important;
+  }
+  .table {
+    min-width: 90vw !important;
+    overflow-y: auto;
+  }
+  .sidebarImg {
+    height: 100px !important;
+  }
+}
+@media screen and (max-width: 650px) {
+  .coinPageDiv {
+    flex-direction: column !important;
+  }
+  .sidebar {
+    min-width: 100vw !important;
+    border: none !important;
+    min-height: auto !important;
+  }
+  .coinInfoHr {
+    display: block !important;
+    color: gray !important;
+    min-width: 100vw !important;
+    height: 5px !important;
+  }
+  .coinInfoDiv {
+    min-width: 100vw !important;
+  }
+  .line {
+    min-width: 95vw !important;
+  }
+  .coinInfoSpinner {
+    height: 100px !important;
+    width: 100px !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .tableSpinner {
+    height: 150px !important;
+    width: 150px !important;
+  }
+  .table {
+    font-size: 12px !important;
+  }
+  .tableCoin {
+    gap: 10px !important;
+  }
+  .tableCoinImg {
+    height: 40px !important;
+  }
+  .tableCoinSymbol {
+    font-size: 10px !important;
+  }
+  .tableCoinName {
+    font-size: 10px !important;
+  }
+  .tableCoinPrice {
+    font-size: 10px !important;
+  }
+  .tableCoinChange {
+    font-size: 10px !important;
+  }
+  .tableCoinMarket {
+    font-size: 10px !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .partation {
+    display: block;
+    color: #fff;
+  }
+  .banner {
+    min-height: 150px !important;
+  }
+  .bannerDiv {
+    min-width: 100vw;
+    text-align: left;
+    padding-left: 20px;
+  }
+  .heading {
+    font-size: 25px !important;
+  }
+  .subHeading {
+    font-size: 15px;
+  }
+  .carousel {
+    min-width: 95vw !important;
+  }
+  .headingHr {
+    min-width: 100vw !important;
+  }
+  .coinName {
+    font-size: 12px !important;
+  }
+  .profit {
+    font-size: 10px !important;
+  }
+  .currentPrice {
+    font-size: 12px !important;
+  }
+  .searchBarHeading {
+    font-size: 15px !important;
+  }
+  .searchBar {
+    min-width: 90vw !important;
+    font-size: 13px !important;
+  }
+  .tableHead {
+    padding: 10px 0 !important;
+  }
+}
+@media screen and (max-width: 450px) {
+  .table {
+    min-width: 95vw !important;
+  }
+  .tableCoinMar {
+    font-size: 10px !important;
+  }
+  .line {
+    min-width: 98vw !important;
+  }
+  .coinInfoHr {
+    margin: 0 !important;
+  }
+}
+@media screen and (max-width: 350px) {
+  .table {
+    min-width: 98vw !important;
+  }
+  .tableHead {
+    padding: 0 !important;
+  }
+  .coinDiv {
+    flex-direction: row !important;
+  }
+  .tableCoin {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 5 !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .tableCoinImg {
+    width: 40px !important;
+    margin-bottom: 0 !important;
+  }
+  .tableCoinSymbol {
+    margin-right: 5px !important;
+  }
+  .timeBtn {
+    padding: 1px 2.5px !important;
+    font-size: 8px !important;
+  }
+}
